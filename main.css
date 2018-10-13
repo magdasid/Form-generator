@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    text-align: center;
+    color: #2E4A62;
+}
+.main-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #F0EDE5;
+    margin: 0 auto;
+    width: 25%;
+    padding: 2%;
+    font-size: 0.8em;
+    border-radius: 8px;
+}
+input {
+    margin: 1% 0 3% 0;
+    padding: 2%;
+    width: 92%;
+}
+button{
+    width: 100px;
+    padding: 2%;
+    margin: 0 auto;
+    background-color: #C0AB8E;
+    border: none;
+    border-radius: 4px; 
+}
+button:hover {
+    background-color: #2E4A62;
+}
